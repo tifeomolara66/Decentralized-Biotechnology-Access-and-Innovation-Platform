@@ -50,6 +50,11 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
+            contract-name: personalized-medicine-equity
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/personalized-medicine-equity.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: pharma-patent-reform
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/pharma-patent-reform.clar

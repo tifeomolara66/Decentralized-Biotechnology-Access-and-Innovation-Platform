@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.personalized-medicine-equity]
+path = 'contracts/personalized-medicine-equity.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.pharma-patent-reform]
 path = 'contracts/pharma-patent-reform.clar'
 clarity_version = 2
